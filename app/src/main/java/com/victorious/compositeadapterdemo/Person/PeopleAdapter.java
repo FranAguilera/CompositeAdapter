@@ -1,4 +1,4 @@
-package com.victorious.compositeadapter.Person;
+package com.victorious.compositeadapterdemo.Person;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.victorious.compositeadapter.R;
+import com.victorious.compositeadapterdemo.R;
 
 import java.util.List;
 

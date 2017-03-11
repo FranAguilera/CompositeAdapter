@@ -1,4 +1,4 @@
-package com.victorious.compositeadapter.TextMessage;
+package com.victorious.compositeadapterdemo.TextMessage;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.victorious.compositeadapter.R;
+import com.victorious.compositeadapterdemo.R;
 
 import java.util.List;
 

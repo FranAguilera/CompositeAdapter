@@ -1,4 +1,4 @@
-package com.victorious.compositeadapter.TextMessage;
+package com.victorious.compositeadapterdemo.TextMessage;
 
 
 public class TextMessage {

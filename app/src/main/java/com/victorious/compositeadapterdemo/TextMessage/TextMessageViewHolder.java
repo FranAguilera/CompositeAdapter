@@ -1,11 +1,11 @@
-package com.victorious.compositeadapter.TextMessage;
+package com.victorious.compositeadapterdemo.TextMessage;
 
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.victorious.compositeadapter.R;
+import com.victorious.compositeadapterdemo.R;
 
 public class TextMessageViewHolder extends RecyclerView.ViewHolder {
 

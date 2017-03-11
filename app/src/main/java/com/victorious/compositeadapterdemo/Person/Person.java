@@ -1,4 +1,4 @@
-package com.victorious.compositeadapter.Person;
+package com.victorious.compositeadapterdemo.Person;
 
 
 public class Person {

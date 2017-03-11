@@ -1,4 +1,4 @@
-package com.victorious.compositeadapter;
+package com.victorious.compositeadapterdemo;
 
 
 import android.content.Context;
@@ -7,10 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.victorious.compositeadapter.Person.Person;
-import com.victorious.compositeadapter.Person.PersonViewHolder;
-import com.victorious.compositeadapter.TextMessage.TextMessage;
-import com.victorious.compositeadapter.TextMessage.TextMessageViewHolder;
+import com.victorious.compositeadapterdemo.Person.Person;
+import com.victorious.compositeadapterdemo.Person.PersonViewHolder;
+import com.victorious.compositeadapterdemo.TextMessage.TextMessage;
+import com.victorious.compositeadapterdemo.TextMessage.TextMessageViewHolder;
 
 import java.util.List;
 

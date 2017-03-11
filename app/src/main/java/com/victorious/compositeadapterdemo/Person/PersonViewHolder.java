@@ -1,11 +1,11 @@
-package com.victorious.compositeadapter.Person;
+package com.victorious.compositeadapterdemo.Person;
 
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.victorious.compositeadapter.R;
+import com.victorious.compositeadapterdemo.R;
 
 public class PersonViewHolder extends RecyclerView.ViewHolder {
 

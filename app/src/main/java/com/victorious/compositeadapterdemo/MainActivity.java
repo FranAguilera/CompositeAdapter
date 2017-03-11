@@ -1,14 +1,15 @@
-package com.victorious.compositeadapter;
+package com.victorious.compositeadapterdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.victorious.compositeadapter.Person.PeopleAdapter;
-import com.victorious.compositeadapter.Person.Person;
-import com.victorious.compositeadapter.TextMessage.TextMessage;
-import com.victorious.compositeadapter.TextMessage.TextMessagesAdapter;
+import com.victorious.compositeadapter.CompositeAdapter;
+import com.victorious.compositeadapterdemo.Person.PeopleAdapter;
+import com.victorious.compositeadapterdemo.Person.Person;
+import com.victorious.compositeadapterdemo.TextMessage.TextMessage;
+import com.victorious.compositeadapterdemo.TextMessage.TextMessagesAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         compositeAdapter.addAdapter(textAdapter);
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.composite_list);
-        recyclerView.setAdapter(peopleAdapter);
+        recyclerView.setAdapter(compositeAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 

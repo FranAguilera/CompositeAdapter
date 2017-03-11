@@ -1,4 +1,4 @@
-package com.victorious.compositeadapter;
+package com.victorious.compositeadapterdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
