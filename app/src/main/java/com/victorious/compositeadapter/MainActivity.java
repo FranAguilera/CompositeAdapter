@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         PeopleAdapter peopleAdapter = new PeopleAdapter(generatePeopleList());
         TextMessagesAdapter textAdapter = new TextMessagesAdapter(generateTextMessages());
 
-//        CompositeAdapter<RecyclerView.Adapter> compositeAdapter = new CompositeAdapter<>();
-//        compositeAdapter.addAdapter(peopleAdapter);
-//        compositeAdapter.addAdapter(textAdapter);
+        CompositeAdapter<RecyclerView.Adapter> compositeAdapter = new CompositeAdapter<>();
+        compositeAdapter.addAdapter(peopleAdapter);
+        compositeAdapter.addAdapter(textAdapter);
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.composite_list);
         recyclerView.setAdapter(peopleAdapter);

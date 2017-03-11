@@ -14,6 +14,9 @@ import com.victorious.compositeadapter.TextMessage.TextMessageViewHolder;
 
 import java.util.List;
 
+/**
+ *  Example of a crude HeterogenousAdapter strategy for rendering different views within a single list
+ */
 public class HeterogenousAdapter extends RecyclerView.Adapter {
 
     private static final int PERSON = 0;
