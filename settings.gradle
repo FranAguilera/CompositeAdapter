@@ -1,1 +1,1 @@
-include ':app', ':compositeadapterlibrary'
+include ':app', ':library'
