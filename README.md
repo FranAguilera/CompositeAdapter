@@ -14,6 +14,18 @@ The composition strategy in place allows you to reuse and combine existing adapt
 - Add each Adapter to an instance of CompositeAdapter.
 - Pass the CompositeAdapter instance to your RecyclerView. 
 
+```
+PeopleAdapter peopleAdapter = new PeopleAdapter(generatePeopleList());
+TextMessagesAdapter textAdapter = new TextMessagesAdapter(generateTextMessages());
+
+CompositeAdapter<RecyclerView.Adapter> compositeAdapter = new CompositeAdapter<>();
+compositeAdapter.addAdapter(peopleAdapter);
+compositeAdapter.addAdapter(textAdapter);
+
+RecyclerView recyclerView = (RecyclerView) findViewById(R.id.composite_list);
+recyclerView.setAdapter(compositeAdapter);
+```
+
 ## Demo & Other Info
 
 See the [Demo App](https://github.com/Victorious/CompositeAdapter/tree/master/app) for a quick example of CompositeAdapter in action.
