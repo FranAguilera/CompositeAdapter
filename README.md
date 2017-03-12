@@ -39,7 +39,7 @@ See the [Demo App](https://github.com/Victorious/CompositeAdapter/tree/master/ap
 ## License
 
 ```
-Copyright 2017 Vincent Mi
+Copyright 2017 Victorious,Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
